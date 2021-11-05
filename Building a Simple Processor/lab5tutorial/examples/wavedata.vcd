@@ -1,0 +1,54 @@
+$date
+	Tue Jan 25 17:20:31 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " co $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % ci $end
+$scope module adder_blocking_lhs $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % ci $end
+$var wire 4 ( sum [3:0] $end
+$var wire 1 " co $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+x"
+bx !
+$end
+#3
+b1 #
+b1 &
+#5
+b11 $
+b11 '
+#9
+b100 !
+b100 (
+0"
+b10 #
+b10 &
+#11
+b100 #
+b100 &
+#15
+b111 !
+b111 (
+#38
