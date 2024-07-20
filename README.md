@@ -14,7 +14,7 @@ This project involves designing and implementing an 8-bit single-cycle CPU with 
 
 ### CPU Architecture
 
-![CPU Architecture](images/CpuArchitecture.png)
+![CPU Architecture](images/CPUArchitecture.png)
 
 ### Signal Waveforms
 
